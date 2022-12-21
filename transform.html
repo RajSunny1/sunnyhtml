@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: red;
+            height: 455px;
+        }
+        .box{
+            border: 2px solid black;
+            /* transform: translate(43px,56px); */
+            /* transform:rotate(45deg) ; */
+            /* transform: scaleX(4); */
+            transform-origin: 0;
+            /* transform: skew(0deg,10deg); */
+            /* transform: rotatex(45deg); */
+ }
+ img:hover{
+    width: 156px;
+ 
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+    transition-delay: 3s;
+ 
+ }
+    </style>
+</head>
+<body>
+    <div class="container">
+       <div class="box"> <img id="my image" src="https://images.unsplash.com/photo-1627677500816-e044a0f362cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGFwaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=90" alt="bee"></div>
+    </div>
+    
+</body>
+</html>
